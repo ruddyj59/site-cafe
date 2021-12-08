@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+  border: 1px solid black;
+}
+  .article img{
+    width: 100%
+  }
+#fabrication img{
+  width: 40%
+}
+#fabrication p{
+  width: 60%
+}
+.article a{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#produits{
+  letter-spacing: -0.25rem;
+}
+.article{
+  /* border: solid 1px black; */
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  width: calc(100%/3);
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.article, #produits h2{
+  letter-spacing: normal;
+}
+#produits p{
+  height: 100px;
+  padding: 20px 0px
+}
+header, header img{
+  text-align: center;
+  width: 100%
+
+}
+.salarie{
+  border: solid 1px black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.salarie img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 1px 1px;
+}
+li{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 20px;
+  box-sizing: border-box;
+
+}
+
+.inline{
+  background-color: brown;
+  display: inline;
+}
+.strong{
+  display: block;
+  width: 20px
+}
+.span{
+  display: block;
+  width: 30px
+}
+#origine a{
+  display: inline-block;
+  padding: 10px;
+}
+nav li{
+  display: inline-block;
+  width: calc(100%/4);
+  background-color: brown;
+letter-spacing: normal;
+}
+nav ul{
+  letter-spacing: -0.25rem
+}
